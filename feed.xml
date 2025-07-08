@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Mo Baraka (@abumuailek)</title>
+    <link href="https://abumuailek.github.io/abumuailek.com/feed.xml" rel="self" />
+    <link href="https://abumuailek.github.io/abumuailek.com" />
+    <updated>1970-01-01T02:00:00+02:00</updated>
+    <author>
+        <name>Mo</name>
+    </author>
+    <id>https://abumuailek.github.io/abumuailek.com</id>
+
+</feed>
