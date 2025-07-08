@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white text-gray-800">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Abumuailek</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-screen-md mx-auto px-4 py-8">
+  <header class="text-center mb-8">
+    <h1 class="text-3xl font-bold">Mohammed Abumuailek</h1>
+    <p class="text-gray-600">SEO, Tech Lead, Tinkerer</p>
+  </header>
+
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">Latest Contributions</h2>
+    <div id="github-feed" class="text-sm text-blue-600">Loading...</div>
+  </section>
+
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">CV & Contact</h2>
+    <a href="cv.pdf" class="text-blue-500 underline block">View CV (PDF)</a>
+    <a href="mailto:you@example.com" class="text-blue-500 underline block">Email Me</a>
+  </section>
+
+  <section>
+    <h2 class="text-xl font-semibold mb-2">Connect</h2>
+    <ul class="flex space-x-4">
+      <li><a href="https://github.com/abumuailek" target="_blank" class="text-blue-500">GitHub</a></li>
+      <li><a href="https://linkedin.com/in/abumuailek" target="_blank" class="text-blue-500">LinkedIn</a></li>
+      <!-- Add more if needed -->
+    </ul>
+  </section>
+
+  <script>
+    fetch("https://api.github.com/users/abumuailek/events/public")
+      .then(res => res.json())
+      .then(data => {
+        const feed = data
+          .slice(0, 5)
+          .map(event => `<div>• ${event.type} at <strong>${event.repo.name}</strong></div>`)
+          .join("");
+        document.getElementById("github-feed").innerHTML = feed;
+      })
+      .catch(() => {
+        document.getElementById("github-feed").innerText = "Could not load GitHub activity.";
+      });
+  </script>
+</body>
+</html>
