@@ -3,10 +3,230 @@
     <title>Mo Baraka (@abumuailek)</title>
     <link href="https://abumuailek.github.io/abumuailek.com/feed.xml" rel="self" />
     <link href="https://abumuailek.github.io/abumuailek.com" />
-    <updated>1970-01-01T02:00:00+02:00</updated>
+    <updated>2025-07-09T06:17:13+03:00</updated>
     <author>
         <name>Mo</name>
     </author>
     <id>https://abumuailek.github.io/abumuailek.com</id>
 
+    <entry>
+        <title>How I Built This Site Using Publii &amp; GitHub Pages (So You Can Too)</title>
+        <author>
+            <name>Mo</name>
+        </author>
+        <link href="https://abumuailek.github.io/abumuailek.com/how-i-built-this-site-using-publii-and-github-pages-so-you-can-too/index.html"/>
+        <id>https://abumuailek.github.io/abumuailek.com/how-i-built-this-site-using-publii-and-github-pages-so-you-can-too/index.html</id>
+        <media:content url="https://abumuailek.github.io/abumuailek.com/media/posts/2/20250709_0616_Building-Sites-with-Publii_simple_compose_01jzpjvgw3egv8k32k72zf095d.png" medium="image" />
+
+        <updated>2025-07-09T06:17:13+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://abumuailek.github.io/abumuailek.com/media/posts/2/20250709_0616_Building-Sites-with-Publii_simple_compose_01jzpjvgw3egv8k32k72zf095d.png" alt="" />
+                    Great job launching your site with Publii on GitHub Pages! Here's a ready-to-publish long-form intro blog post — informative, personal,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://abumuailek.github.io/abumuailek.com/media/posts/2/20250709_0616_Building-Sites-with-Publii_simple_compose_01jzpjvgw3egv8k32k72zf095d.png" class="type:primaryImage" alt="" /></p>
+                <p>Great job launching your site with Publii on GitHub Pages! Here's a ready-to-publish <strong>long-form intro blog post</strong> — informative, personal, quirky, and link-rich — that you can paste directly into Publii:</p>
+<hr>
+<h2>🚀 How I Built This Site Using Publii &amp; GitHub Pages (So You Can Too)</h2>
+<p>Hello there, internet wanderer! 👋</p>
+<p>Welcome to the humble digital corner I now call <strong>abumuailek.com</strong> — a place where I’ll post my work, ideas, code experiments, occasional caffeine-induced rants, and maybe pictures of cats (don’t judge).</p>
+<p>I built this site with a simple goal: <strong>have a personal space that’s lightweight, fast, good-looking on your phone, and stupid-easy to update</strong>. Oh, and it had to be free. I'm a techie, not a magician 🧙‍♂️.</p>
+<p>So here's how I did it — and how <em>you</em> can do the same in a couple of hours (or 7, if you’re like me and tweak fonts for 3 of them).</p>
+<hr>
+<h2>💡 The Idea</h2>
+<p>I wanted:</p>
+<ul>
+<li>
+<p>Something I control (no Medium, Substack, etc.)</p>
+</li>
+<li>
+<p>A CMS-like interface, but <strong>without</strong> a WordPress backend or paying for hosting</p>
+</li>
+<li>
+<p>Easy syncing with GitHub Pages</p>
+</li>
+<li>
+<p>Minimalism, but not <em>boring</em></p>
+</li>
+</ul>
+<p>After some research (read: procrastinating on YouTube), I found a tool called <strong><a href="https://getpublii.com">Publii</a></strong>. It’s a free desktop app that lets you create static websites with CMS-like ease. No PHP, no MySQL, no server drama. Just click → write → sync to GitHub. Boom.</p>
+<hr>
+<h2>🛠️ What I Used</h2>
+<ul>
+<li>
+<p>🖥️ <a href="https://getpublii.com">Publii</a> – the core of the project</p>
+</li>
+<li>
+<p>🧑‍💻 <a href="https://pages.github.com/">GitHub Pages</a> – the free hosting</p>
+</li>
+<li>
+<p>🌐 <a href="https://cloudflare.com">Cloudflare</a> – I already had my domain here</p>
+</li>
+<li>
+<p>🎨 A clean Publii theme with just enough personality</p>
+</li>
+<li>
+<p>☕ My over-caffeinated attention span</p>
+</li>
+</ul>
+<hr>
+<h2>🧭 Step-by-Step Guide: Build Yours</h2>
+<h3><strong>Step 1: Install Publii</strong></h3>
+<ul>
+<li>
+<p>Download Publii for <a href="https://getpublii.com/download/">Windows, macOS, or Linux</a></p>
+</li>
+<li>
+<p>Install. Launch. Take a moment to appreciate how sleek it looks.</p>
+</li>
+</ul>
+<h3><strong>Step 2: Create a New Website</strong></h3>
+<ul>
+<li>
+<p>Click “Create New Website”</p>
+</li>
+<li>
+<p>Give it a name (I used “abumuailek” because, well, that’s me).</p>
+</li>
+<li>
+<p>Choose a theme. I went minimal. You do you.</p>
+</li>
+</ul>
+<h3><strong>Step 3: Add Your Content</strong></h3>
+<ul>
+<li>
+<p>Use Publii’s editor to write pages and blog posts.</p>
+</li>
+<li>
+<p>It supports markdown, images, tags, SEO settings — the works.</p>
+</li>
+<li>
+<p>I created:</p>
+<ul>
+<li>
+<p>A homepage</p>
+</li>
+<li>
+<p>An “About Me”</p>
+</li>
+<li>
+<p>A link to my resume (PDF uploaded to static files)</p>
+</li>
+<li>
+<p>Blog section (like this post!)</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3><strong>Step 4: Connect to GitHub Pages</strong></h3>
+<ul>
+<li>
+<p>Go to “Server” settings → Choose <strong>GitHub Pages</strong>.</p>
+</li>
+<li>
+<p>Enter:</p>
+<ul>
+<li>
+<p>Your GitHub username</p>
+</li>
+<li>
+<p>Repo name: <code>yourusername.github.io</code></p>
+</li>
+<li>
+<p>Branch: <code>main</code> (or <code>master</code>, if you're retro)</p>
+</li>
+<li>
+<p>Optional: Custom domain like <code>abumuailek.com</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Hit <strong>“Test Connection”</strong> to make sure it works.</p>
+</li>
+<li>
+<p>Click <strong>“Sync your website”</strong> and voila!</p>
+</li>
+</ul>
+<h3><strong>Step 5: Point Your Domain</strong></h3>
+<ul>
+<li>
+<p>I use <a href="https://www.cloudflare.com/">Cloudflare</a>, but most registrars work.</p>
+</li>
+<li>
+<p>Add a <strong>CNAME</strong> record:</p>
+<pre><code>Name: @
+Target: yourusername.github.io
+TTL: Auto
+</code></pre>
+</li>
+<li>
+<p>GitHub will auto-serve the site after a few minutes.</p>
+</li>
+</ul>
+<p>🔧 <em>More help:</em></p>
+<ul>
+<li>
+<p><a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">GitHub Pages custom domain guide</a></p>
+</li>
+</ul>
+<hr>
+<h2>🧩 Bonus Touches</h2>
+<ul>
+<li>
+<p>Embedded my <a href="https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28">GitHub contributions</a></p>
+</li>
+<li>
+<p>Added SEO titles and meta descriptions via Publii</p>
+</li>
+<li>
+<p>Tweaked some theme settings to feel more “me”</p>
+</li>
+<li>
+<p>Will likely keep obsessively changing the favicon until it’s perfect</p>
+</li>
+</ul>
+<hr>
+<h2>😅 Lessons Learned</h2>
+<ul>
+<li>
+<p>Publii is a <strong>game-changer</strong> for people who want to own their space but still want the ease of writing like it’s Medium.</p>
+</li>
+<li>
+<p>GitHub Pages is reliable, fast, and <em>free</em> — what's not to love?</p>
+</li>
+<li>
+<p>Don’t overthink design… at first. Get content live, tweak later.</p>
+</li>
+<li>
+<p>Backup before syncing. Learned this the “oops-my-homepage-is-gone” way.</p>
+</li>
+</ul>
+<hr>
+<h2>🧠 Why You Should Try This</h2>
+<p>If you're:</p>
+<ul>
+<li>
+<p>A dev or tinkerer wanting a personal home</p>
+</li>
+<li>
+<p>A writer who hates WordPress bloat</p>
+</li>
+<li>
+<p>Someone tired of renting space on platforms</p>
+</li>
+</ul>
+<p>Then this combo — <strong>Publii + GitHub Pages</strong> — is your minimalist power move.</p>
+<hr>
+<h2>📬 Got Questions?</h2>
+<p>Reach out via <a href="https://github.com/abumuailek">GitHub</a>, <a href="https://linkedin.com/in/abumuailek">LinkedIn</a>, or just shout into the void and hope I hear you.</p>
+<hr>
+<p>Thanks for stopping by.</p>
+<p>This is just the beginning. More blog posts (and experiments) coming soon.</p>
+<p>Stay curious,<br><strong>– Mo</strong></p>
+            ]]>
+        </content>
+    </entry>
 </feed>
